@@ -1,0 +1,21 @@
+# dbt
+target/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data (VERY IMPORTANT)
+data/raw/
+*.csv
+
+# Database files
+*.duckdb
+
+# OS files
+.DS_Store
+Thumbs.db
